@@ -13,11 +13,16 @@ The bridge sits inline between the car and the radio. Most CAN traffic is forwar
 
 ## Features
 
-- Fixes MIB2/RCD330 screen brightness on Mk5 cars by correcting the illumination/dimming message.
+- Fixes MIB2/RCD330 screen brightness on cars by correcting the illumination/dimming message.
 - Keeps the radio responsive to the dash dimmer wheel when ambient/headlight illumination is active.
-- Translates MIB2/RCD330 audio text to the VW Red MFD Audio page.
-- Translates MIB2 navigation distance/street text to the VW Red MFD Navigation page.
+- Translates MIB2/RCD330 audio text to the Red MFD Audio page.
+- Translates MIB2 navigation distance/street text to the Red MFD Navigation page.
 - Optionally maps steering wheel MFD Up & Down buttons to previous/next while the Audio page is actively displayed.
+
+## VCDS/OBD11 Coding Needed
+
+5F Control Unit --> Adaptations --> Dimming illumination for Display Unit -->  `Y3` to `30%` and `Y4` to `100%` 
+Security Access code may be needed: 20103
 
 ## Hardware Needed
 
@@ -42,15 +47,12 @@ Recommended wire colors:
 | CAN Low | Green |
 | 12 V / 5 V positive | Red |
 | Ground | Black |
-| Teensy TX logic | White or another non-CAN color |
-| Teensy RX logic | Blue or another non-CAN color |
+| Teensy TX logic | White |
+| Teensy RX logic | Blue |
 
 Avoid:
 
 - 5 V-only CAN transceiver boards unless they explicitly support 3.3 V logic or have a separate `VIO` pin.
-- Extra CAN termination unless you have measured the bus and know it is needed.
-- Bridging removed termination resistor pads. If you remove a CANH/CANL termination resistor from a module, leave those pads open.
-- Connecting raw vehicle signals directly to Teensy pins.
 
 ## Wiring Overview
 
@@ -163,7 +165,7 @@ Commands are sent over USB serial at `115200` baud. Most production settings are
 | `l` or `log` | Toggle verbose dimming-frame logging. |
 | `b` or `bypass` | Toggle bypass mode. In bypass mode, frames pass through without the brightness rewrite. |
 
-### Brightness / Dimming
+### Screen Brightness / Dimming
 
 | Command | Description |
 | --- | --- |
@@ -176,7 +178,7 @@ Commands are sent over USB serial at `115200` baud. Most production settings are
 
 `dimmer` can also be used as an alias for `dim`.
 
-### DDP / MFD Page Control
+### MFD Translation
 
 | Command | Description |
 | --- | --- |
@@ -215,7 +217,7 @@ Commands are sent over USB serial at `115200` baud. Most production settings are
 
 `navigation` can also be used as an alias for `nav`.
 
-### Steering Wheel Integration
+### Steering Wheel Button Integration
 
 | Command | Description |
 | --- | --- |
