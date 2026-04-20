@@ -1,6 +1,8 @@
 # MIB2-Can-Bridge-MK5-B6
 # MK5 / B6 VW  MIB2 / RCD330 CAN Bridge
 
+Latest firmware located on RELEASES page.
+
 For Vehicles with RED MFD.
 
 Gateway Upgrade still required for proper Infotainment Function.
