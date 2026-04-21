@@ -23,7 +23,12 @@ The bridge sits inline between the car and the radio. Most CAN traffic is forwar
 
 ## VCDS/OBD11 Coding Needed
 
+MIB2:
 5F Control Unit --> Adaptations --> Dimming illumination for Display Unit -->  `Y3` to `30%` and `Y4` to `100%` 
+Security Access code may be needed: 20103
+
+RCD 330 (May not be available on all RCD330s):
+56 Control Unit --> Adaptations --> Dimming illumination for Display Unit -->  `Y3` to `30%` and `Y4` to `100%` 
 Security Access code may be needed: 20103
 
 ## Hardware Needed
