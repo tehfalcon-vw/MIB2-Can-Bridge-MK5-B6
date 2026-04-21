@@ -40,8 +40,6 @@ Security Access code may be needed: `20103`
 
 ## Hardware Needed
 
-Minimum recommended build:
-
 | Qty | Part | Notes |
 | ---: | --- | --- |
 | 1 | CANBus Gateway | Gateway Upgrade needed for Proper communication and sleep. `7N0907530BC` or Similar. |
