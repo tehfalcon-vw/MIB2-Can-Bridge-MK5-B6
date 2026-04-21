@@ -48,7 +48,7 @@ Minimum recommended build:
 | 1 | Teensy 4.0 | Main controller. |
 | 2 | 3.3 V CAN transceiver modules | SN65HVD230 modules work well. Use boards with `TXD`, `RXD`, `VCC\3.3`, `GND`, `CANH`, and `CANL`. |
 | 1 | 12 V to 5 V automotive buck converter | Use a high quality converter with stable output. |
-| 1 | VW quadlock extension or breakout harness | Strongly preferred so the car loom does not need to be cut. |
+| 1 (Optional) | VW quadlock extension or breakout harness | Strongly preferred so the car loom does not need to be cut. |
 | 1 | 2A Inline fuse | Put this on the adapter power feed. |
 | As needed | Twisted pair wire | Use for both CANH/CANL runs. |
 | As needed | Heat shrink, solder, crimp terminals, solder sleeves, strain relief | Build it like it will live in a dashboard, because it will. |
