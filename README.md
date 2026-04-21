@@ -39,7 +39,7 @@ Minimum recommended build:
 | ---: | --- | --- |
 | 1 | CANBus Gateway | Gateway Upgrade needed for Proper communication and sleep. `7N0907530BC` or Similar. |
 | 1 | Teensy 4.0 | Main controller. |
-| 2 | 3.3 V CAN transceiver modules | SN65HVD230 modules work well. Use boards with `TXD`, `RXD`, `VCC`, `GND`, `CANH`, and `CANL`. |
+| 2 | 3.3 V CAN transceiver modules | SN65HVD230 modules work well. Use boards with `TXD`, `RXD`, `VCC\3.3`, `GND`, `CANH`, and `CANL`. |
 | 1 | 12 V to 5 V automotive buck converter | Use a high quality converter with stable output. |
 | 1 | VW quadlock extension or breakout harness | Strongly preferred so the car loom does not need to be cut. |
 | 1 | 2A Inline fuse | Put this on the adapter power feed. |
