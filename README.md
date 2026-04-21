@@ -67,7 +67,7 @@ The module is an inline bridge. The car CAN wires go into one transceiver, the r
 
 ```mermaid
 flowchart LR
-    car["Mk5 vehicle harness"] --> bridge["Teensy 4.0 CAN bridge"]
+    car["vehicle harness"] --> bridge["Teensy 4.0 CAN bridge"]
     bridge --> radio["MIB2 / RCD330 radio"]
     power["12 V accessory / radio power"] --> buck["12 V to 5 V buck converter"]
     buck --> bridge
