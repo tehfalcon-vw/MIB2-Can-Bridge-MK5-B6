@@ -180,8 +180,8 @@ Commands are sent over USB serial at `115200` baud. Most production settings are
 | `night XX` | Set the low endpoint used by scaled dimmer mode. Example: `night 20`. |
 | `dim status` | Print current dimmer mode. |
 | `dim pass` | Pass dash-dimmer frames unchanged. |
-| `dim mirror` | Copy the raw Mk5 dimmer byte into the MIB2 brightness byte. Debug/fallback mode. |
-| `dim scale` | Scale the Mk5 dimmer wheel range into `nightBrightness`..`dayBrightness`. |
+| `dim mirror` | Copy the raw dimmer byte into the MIB2 brightness byte. Debug/fallback mode. |
+| `dim scale` | Scale the dimmer wheel range into `nightBrightness`..`dayBrightness`. |
 
 `dimmer` can also be used as an alias for `dim`.
 
