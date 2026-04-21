@@ -60,8 +60,8 @@ Recommended wire colors:
 | --- | --- |
 | CAN High | Yellow |
 | CAN Low | Green |
-| 12 V / 5 V positive | Red |
-| Ground | Black |
+| 12 V / 5 V / 3.3 + | Red |
+| Ground - | Black |
 | Teensy TX logic | White |
 | Teensy RX logic | Blue |
 
