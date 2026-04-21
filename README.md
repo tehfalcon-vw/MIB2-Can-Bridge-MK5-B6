@@ -15,11 +15,18 @@ The bridge sits inline between the car and the radio. Most CAN traffic is forwar
 
 ## Features
 
-- Fixes MIB2/RCD330 screen brightness on cars by correcting the illumination/dimming message. 
-- Keeps the radio responsive to the dash dimmer wheel when ambient/headlight illumination is active.
-- Translates MIB2/RCD330 audio text to the Red MFD Audio page. (MIB2 only)
-- Translates MIB2 navigation distance/street text to the Red MFD Navigation page. (MIB2 only)
-- Optionally maps steering wheel MFD Up & Down buttons to previous/next while the Audio page is actively displayed. (MIB2 only)
+Implemented
+
+- Fixes MIB2/RCD330 screen brightness on cars by correcting the illumination/dimming message. (MIB2 STD/Nav & RCD330)
+- Keeps the radio responsive to the dash dimmer wheel when ambient/headlight illumination is active. (MIB2 STD/Nav & RCD330)
+- Translates MIB2/RCD330 audio text to the Red MFD Audio page. (MIB2 STD/Nav)
+- Translates MIB2 navigation distance/street text to the Red MFD Navigation page. (MIB2 Nav only)
+- Optionally maps steering wheel MFD Up & Down buttons to previous/next while the Audio page is actively displayed. (MIB2 STD/Nav only)
+
+In Development
+
+- Navigation Route Maneuver Arrows on Red MFD Nav Page (MIB2 Nav only)
+- MK6/B7/NMS B&W MFD Cluster Time Sync Fix (MIB2 STD/Nav only)
 
 ## VCDS/OBD11 Coding Needed
 
