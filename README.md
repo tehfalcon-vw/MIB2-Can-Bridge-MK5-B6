@@ -113,7 +113,7 @@ flowchart LR
 | Buck converter 5 V output | Teensy `VIN` |
 | Buck converter ground | Teensy `GND` |
 | Teensy `GND` | Both transceiver `GND` pins |
-| Teensy `3.3V` | Both transceiver `VCC` pins, if using 3.3 V transceiver modules |
+| Teensy `3.3V` | Both transceiver `VCC/3.3` pins, if using 3.3 V transceiver modules |
 
 Set and verify the buck converter output before connecting the Teensy. The Teensy wants 5 V on `VIN`, not raw vehicle voltage.
 
