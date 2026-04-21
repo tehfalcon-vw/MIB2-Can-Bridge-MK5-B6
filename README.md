@@ -50,7 +50,7 @@ Minimum recommended build:
 | 1 | 12 V to 5 V automotive buck converter | Use a high quality converter with stable output. |
 | 1 (Optional) | VW quadlock extension or breakout harness | Strongly preferred so the car loom does not need to be cut. |
 | 1 | 2A Inline fuse | Put this on the adapter power feed. |
-| As needed | Twisted pair wire | Use for both CANH/CANL runs. |
+| As needed | Twisted pair wire in Recommended Colors | Use for both CANH/CANL connections. |
 | As needed | Solid Core wire in Recommended Colors | Use for all other connections. |
 | As needed | Heat shrink, solder, crimp terminals, solder sleeves, strain relief | Build it like it will live in a dashboard, because it will. |
 
