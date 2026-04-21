@@ -30,6 +30,8 @@ In Development
 
 ## VCDS/OBD11 Coding Needed
 
+For Brightness fix to work correctly:
+
 MIB2:
 `5F Infotainment` Control Unit --> `Adaptations` --> `Dimming illumination for Display Unit` -->  `Y3` to `30%` and `Y4` to `100%` 
 Security Access code may be needed: `20103`
