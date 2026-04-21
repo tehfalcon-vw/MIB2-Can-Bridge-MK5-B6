@@ -37,7 +37,7 @@ Minimum recommended build:
 
 | Qty | Part | Notes |
 | ---: | --- | --- |
-| 1 | CANBus Gateway | Gateway Upgrade needed for Proper 5F communication. `7N0907530BC` or Similar. |
+| 1 | CANBus Gateway | Gateway Upgrade needed for Proper communication and sleep. `7N0907530BC` or Similar. |
 | 1 | Teensy 4.0 | Main controller. |
 | 2 | 3.3 V CAN transceiver modules | SN65HVD230 modules work well. Use boards with `TXD`, `RXD`, `VCC`, `GND`, `CANH`, and `CANL`. |
 | 1 | 12 V to 5 V automotive buck converter | Use a high quality converter with stable output. |
