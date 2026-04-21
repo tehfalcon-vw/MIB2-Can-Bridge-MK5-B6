@@ -67,7 +67,7 @@ The module is an inline bridge. The car CAN wires go into one transceiver, the r
 
 ```mermaid
 flowchart LR
-    car["vehicle harness"] --> bridge["Teensy 4.0 CAN bridge"]
+    car["Vehicle side harness"] --> bridge["Teensy 4.0 CAN bridge"]
     bridge --> radio["MIB2 / RCD330 radio"]
     power["12 V accessory / radio power"] --> buck["12 V to 5 V buck converter"]
     buck --> bridge
@@ -123,10 +123,10 @@ Set and verify the buck converter output before connecting the Teensy. The Teens
 | --- | --- | --- |
 | CAN1 TX | `CTX1`, pin `22` | `TXD` |
 | CAN1 RX | `CRX1`, pin `23` | `RXD` |
-| 3.3 V | `3.3V` | `VCC` |
+| 3.3 V | `3.3V` | `VCC/3.3` |
 | Ground | `GND` | `GND` |
-| Vehicle CAN High | vehicle harness CAN-H | `CANH` |
-| Vehicle CAN Low | vehicle harness CAN-L | `CANL` |
+| Vehicle CAN High | vehicle side harness CAN-H | `CANH` |
+| Vehicle CAN Low | vehicle side harness CAN-L | `CANL` |
 
 ### Radio-Side Transceiver B
 
@@ -134,10 +134,10 @@ Set and verify the buck converter output before connecting the Teensy. The Teens
 | --- | --- | --- |
 | CAN2 TX | `CTX2`, pin `1` | `TXD` |
 | CAN2 RX | `CRX2`, pin `0` | `RXD` |
-| 3.3 V | `3.3V` | `VCC` |
+| 3.3 V | `3.3V` | `VCC/3.3` |
 | Ground | `GND` | `GND` |
-| Radio CAN High | radio harness CAN-H | `CANH` |
-| Radio CAN Low | radio harness CAN-L | `CANL` |
+| Radio CAN High | radio side harness CAN-H | `CANH` |
+| Radio CAN Low | radio side harness CAN-L | `CANL` |
 
 Notes:
 
