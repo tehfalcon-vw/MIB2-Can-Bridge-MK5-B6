@@ -62,12 +62,12 @@ Recommended wire colors:
 | CAN Low | Green |
 | 12 V / 5 V / 3.3 V Positive (+) | Red |
 | Ground (-) | Black |
-| Teensy TX logic | White |
-| Teensy RX logic | Blue |
+| TX | White |
+| RX | Blue |
 
 Avoid:
 
-- 5 V-only CAN transceiver boards unless they explicitly support 3.3 V logic or have a separate `VIO` pin.
+- 5 V-only CAN transceiver boards
 
 ## Wiring Overview
 
