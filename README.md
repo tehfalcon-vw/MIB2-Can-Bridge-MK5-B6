@@ -51,6 +51,7 @@ Minimum recommended build:
 | 1 (Optional) | VW quadlock extension or breakout harness | Strongly preferred so the car loom does not need to be cut. |
 | 1 | 2A Inline fuse | Put this on the adapter power feed. |
 | As needed | Twisted pair wire | Use for both CANH/CANL runs. |
+| As needed | Solid Core wire in Recommended Colors | Use for all other connections. |
 | As needed | Heat shrink, solder, crimp terminals, solder sleeves, strain relief | Build it like it will live in a dashboard, because it will. |
 
 Recommended wire colors:
