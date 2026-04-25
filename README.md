@@ -34,11 +34,11 @@ In Development
 For Brightness fix to work correctly:
 
 MIB2:
-`5F Infotainment` Control Unit --> `Adaptations` --> `Dimming illumination for Display Unit` -->  `Y3` to `30%` and `Y4` to `100%` 
+`5F Infotainment` Control Unit --> `Adaptations` --> `Dimming illumination for Display Unit` -->  `Y3` to `35%` and `Y4` to `100%` 
 Security Access code may be needed: `20103`
 
 RCD 330 (May not be available on all RCD330s):
-`56 Radio` Control Unit --> `Adaptations` --> `Dimming illumination for Display Unit` -->  `Y3` to `30%` and `Y4` to `100%` 
+`56 Radio` Control Unit --> `Adaptations` --> `Dimming illumination for Display Unit` -->  `Y3` to `35%` and `Y4` to `100%` 
 Security Access code may be needed: `20103`
 
 ## Hardware Needed
