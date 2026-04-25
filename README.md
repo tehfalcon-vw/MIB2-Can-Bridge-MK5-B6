@@ -1,9 +1,9 @@
-# MIB2-Can-Bridge-MK5-B6
-# MK5 / B6 VW  MIB2 / RCD330 CAN Bridge
+# MIB2-Can-Bridge - MK5/MK6/B6/B7/NMS
+# MIB2 / RCD330 CAN Bridge
 
 Latest firmware located on RELEASES page.
 
-For Vehicles with RED MFD.
+For Vehicles with RED MFD. (Time Fix Available for B&W MFD)
 
 Gateway Upgrade still required for proper Infotainment Function.
 
@@ -22,11 +22,12 @@ Implemented
 - Translates MIB2/RCD330 audio text to the Red MFD Audio page. (MIB2 STD/Nav)
 - Translates MIB2 navigation distance/street text to the Red MFD Navigation page. (MIB2 Nav only)
 - Optionally maps steering wheel MFD Up & Down buttons to previous/next while the Audio page is actively displayed. (MIB2 STD/Nav only)
+- MK6/B7/NMS B&W MFD Cluster Time Sync Fix (MIB2 STD/Nav only)
+
 
 In Development
 
 - Navigation Route Maneuver Arrows on Red MFD Nav Page (MIB2 Nav only)
-- MK6/B7/NMS B&W MFD Cluster Time Sync Fix (MIB2 STD/Nav only)
 
 ## VCDS/OBD11 Coding Needed
 
